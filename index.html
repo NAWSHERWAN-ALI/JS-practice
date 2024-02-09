@@ -1,0 +1,204 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="JScode" href="app.js">
+</head>
+<body>
+    < <SCRIPT>
+
+function isPalindrome(str) 
+{ 
+    const cleanStr = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const reversedStr = cleanStr.split('').reverse().join('');
+    return cleanStr === reversedStr; -->
+<!-- } -->
+
+<!-- // Using  4 Examples//
+// const testString1 = "Nawsherwan";
+// console.log(isPalindrome(testString1)); 
+
+// const testString2 = "racecar";
+// console.log(isPalindrome(testString2)); 
+
+// const testString3 = "hello";
+// console.log(isPalindrome(testString3)); 
+
+// const testString4 = "ono";
+// console.log(isPalindrome(testString4)); -->
+
+<!-- //////////////////////////////////////// -->
+
+<!-- const numbers = [1, 2, 3, 4];
+let sum = 0;
+
+for (let num of numbers) {
+    sum += num;
+}
+
+console.log("Sum:", sum); -->
+
+
+<!-- ////////////////////////// -->
+    
+<!-- const array = [5, 10, 15, 20, 25];
+const element = 15;
+
+const index = array.indexOf(element);
+
+if (index !== -1) {
+    console.log("Index of", element + ":", index);
+} else {
+    console.log(element + " not found in the array.");
+} -->
+<!-- ///////////////////////////// -->
+<!-- <script>
+
+
+    function removeDuplicates(arr) {
+    let uniqueArray = [];
+    for (let i = 0; i < arr.length; i++) {
+        let isDuplicate = false;
+        for (let j = 0; j < uniqueArray.length; j++) {
+            if (arr[i] === uniqueArray[j]) {
+                isDuplicate = true;
+                break;
+            }
+        }
+        if (!isDuplicate) {
+            uniqueArray.push(arr[i]);
+        }
+    }
+    return uniqueArray;
+}
+
+// USING Example //
+const array = ['n','a','w','s','h','e','r','w','a','n'];
+const uniqueArray = removeDuplicates(array);
+console.log("Array with duplicates:", array);
+console.log("Array without duplicates:", uniqueArray);
+
+</script> -->
+
+
+<!-- <script>
+    
+// Ascending Order Sorting //
+function sortAscending(arr) {
+    let sortedArray = [...arr]; 
+    for (let i = 0; i < sortedArray.length - 1; i++) {
+        for (let j = 0; j < sortedArray.length - i - 1; j++) {
+            if (sortedArray[j] > sortedArray[j + 1]) {
+                let temp = sortedArray[j];
+                sortedArray[j] = sortedArray[j + 1];
+                sortedArray[j + 1] = temp;
+            }
+        }
+    }
+    return sortedArray;
+}
+
+// Descending Order Sorting ///
+function sortDescending(arr) {
+    let sortedArray = [...arr];
+    for (let i = 0; i < sortedArray.length - 1; i++) {
+        for (let j = 0; j < sortedArray.length - i - 1; j++) {
+            if (sortedArray[j] < sortedArray[j + 1]) {
+                let temp = sortedArray[j];
+                sortedArray[j] = sortedArray[j + 1];
+                sortedArray[j + 1] = temp;
+            }
+        }
+    }
+    return sortedArray;
+}
+
+// Example usage:
+const array1 = [3, 1, 4, 2, 5];
+console.log("Original Array:", array1);
+console.log("Ascending Order Sorting:", sortAscending(array1));
+console.log("Descending Order Sorting:", sortDescending(array1)); -->
+
+
+<!-- </script> -->
+
+
+
+<!-- <script>
+    let num = 2;
+
+while (num <= 20) {
+    console.log(num);
+    num += 2;
+}
+
+</script> -->
+
+
+<!-- <script>
+
+    let number = 5;
+let factorial = 1;
+let i = 1;
+
+do {
+    factorial *= i;
+    i++;
+} while (i <= number);
+
+console.log("Factorial of", number + ":", factorial);
+
+</script> -->
+
+<script>
+//     const array = [1, 2, 3, 4, 5];
+// const doubledArray = [];
+
+// for (const element of array) {
+//     doubledArray.push(element * 2);
+// }
+
+// console.log("Original Array:", array);
+// console.log("Doubled Array:", doubledArray);
+
+/////////////////////////////////////////////////////////////////////////
+
+// function checkEvenOrOdd(number) {
+//     if (number % 2 === 0) {
+//         return "Even";
+//     } else {
+//         return "Odd";
+//     }
+// }
+
+// // Using Example
+// console.log(checkEvenOrOdd(5)); 
+// console.log(checkEvenOrOdd(10));
+
+/////////////////////////////////////////////////////////////////////////////////
+
+// function findMax(num1, num2, num3) {
+//     return num1 > num2 ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3);
+// }
+
+// // Using Example//
+// console.log(findMax(5, 10, 3)); // Output: 10
+// console.log(findMax(8, 2, 12)); // Output: 12
+// console.log(findMax(1, 7, 7)); // Output: 7
+
+
+function isLeapYear(year) {
+    return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+}
+
+// Using Example://
+
+console.log(isLeapYear(2020)); // Output: true
+console.log(isLeapYear(2021)); // Output: false
+
+    </script>
+
+</body>
+</html> -->
